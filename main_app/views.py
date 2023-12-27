@@ -19,10 +19,16 @@ def index(request):
 #! Player funcs
 
 #? Player view collection
+def get_players(request):
+    return HttpResponse("Hello, world! All players page")
 
 #? Player view individual
+def get_individual_player(request):
+    return HttpResponse("Hello, world! Individual player page")
 
 #? Player add
+def add_player(request):
+    return HttpResponse("Hello, world! Add player page")
 
 #? Player delete
 
